@@ -5,6 +5,7 @@ echo "Incoming variables:"
 echo "    CUSTOM_DIR     = $CUSTOM_DIR"
 echo "    WORKSPACES_DIR = $WORKSPACES_DIR"
 echo "    WORKSPACE_NAME = $WORKSPACE_NAME"
+echo "    TB_WEBAPP_PAT  = $TB_WEBAPP_PAT"
 echo ""
 
 echo "$ cd $WORKSPACES_DIR"
