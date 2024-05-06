@@ -1,7 +1,5 @@
-TB_WEBAPP_PAT=
-
 echo "$ git clone https://github.com/travelbank/web-app.git"
-git clone https://$TB_WEBAPP_PAT@github.com/travelbank/web-app.git
+git clone https://$GITHUB_PAT@github.com/travelbank/web-app.git
 exitValue=$?
 if [ $exitValue != 0 ] ; then
     echo "Error: git clone https://github.com/travelbank/web-app.git failed with status: $exitValue"
